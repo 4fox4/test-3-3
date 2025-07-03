@@ -7,7 +7,7 @@
   - [ ] Icons
   - [ ] Theme
 - [ ] Intégrer React Router
-  - [ ] Version 7
+  - [ ] Version 6
   - [ ] Mode Data
 - [ ] Intégrer React Query
 - [ ] Intégrer React Hook Form
@@ -36,7 +36,7 @@ Créer une application de type Compteur permettant de gérer un état simple (en
     - doit rediriger vers la page d'accueil si l'utilisateur est connecté
     - doit afficher un message d'erreur générique si :
       - l'utilisateur n'est pas trouvé
-      - si le mot de passe est incorrect
+      - ou si le mot de passe est incorrect
   - Accueil `/` :
     - page par défaut si l'utilisateur est connecté
     - doit afficher le compteur et deux boutons pour incrémenter et décrémenter
@@ -61,11 +61,12 @@ Créer une application de type Compteur permettant de gérer un état simple (en
 +-------------------------------+
 | APP_NAME      NAV           O |  <- Header
 +-------------------------------+
+|                | TOP 3        |
 |                | #1 Name   21 |
 |     - 21 +     | #2 Name    9 |
 |                | #3 Name    3 |  <- Page content
 |                |              |
 |                |              |
 +-------------------------------+
-|             Footer            |  <- Footer
+|           © copyright         |  <- Footer
 +-------------------------------+
